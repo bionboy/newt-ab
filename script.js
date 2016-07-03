@@ -13,6 +13,7 @@ $(document).ready(function(){
     $("#codecademy").fadeTo('fast',.5);
     $("#forums").fadeTo('fast',.5);
 
+
 	$("#gmail").mouseenter(function(){
 		$("#gmail").fadeTo('fast',1);
 	});
@@ -93,19 +94,18 @@ $(document).ready(function(){
 		$("#forums").fadeTo('fast',.5);
 	});
 
-	/*$('#links').mouseleave(function(){
-	$("#gmail").stop();
-	$("#outlook").stop();
-    $("#yahoo").stop();
-    $("#youtube").stop();
-    $("#netflix").stop();
-    $("#drive").stop();
-    $("#photos").stop();
-    $("#docs").stop();
-    $("#keep").stop();
-    $("#github").stop();
-    $("#wordpress").stop();
-    $("#codecademy").stop();
-    $("#forums").stop();
-    }); */
+
+	// $("#hackernews").slideup('fast');
+	$("#hackernewsbutton").click(function(){
+		$("#hackernews").slideToggle('slow');
+	});
+
+	$("#youtubefeedbutton").click(function(){
+		$("#youtubefeed").slideToggle('slow');
+	});
+
+
+    $("#forums").click(function(){
+		$("#forumlinks").slideToggle('slow');
+	});
 });
