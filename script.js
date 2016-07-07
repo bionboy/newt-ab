@@ -21,4 +21,12 @@ $(document).ready(function(){
     $("#forums").click(function(){
 		$("#forumlinks").slideToggle('slow');
 	});
+
+	var time = new Date().getHours();
+	console.log(time);
+	if(time >= 21){
+		$("body").css('background-image','url("backgrounds/background-night.jpg")');
+	} else{
+		$("body").css('background-image','url("backgrounds/background.jpg")');
+	}
 });
