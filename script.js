@@ -33,6 +33,6 @@ $(document).ready(function(){
 		$("#links").addClass('night-links');
 		$("#forumlinks").addClass('night-links');
 	} else{
-		$("body").css('background-image','url("backgrounds/background.jpg")');
+		$("body").css('background-image','url("backgrounds/background.jpg")');          // also make a change so that you can see red icons at night and maybe blue out red icons. 
 	}
 });
