@@ -27,6 +27,6 @@ $(document).ready(function(){
 	if(time >= 21){
 		$("body").css('background-image','url("backgrounds/background-night.jpg")');
 	} else{
-		$("body").css('background-image','url("backgrounds/background.jpg")');
+		$("body").css('background-image','url("backgrounds/background.jpg")');          // also make a change so that you can see red icons at night and maybe blue out red icons. 
 	}
 });
