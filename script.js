@@ -25,7 +25,7 @@ $(document).ready(function(){
 	var time = new Date().getHours();
 	console.log(time);
 	if(time >= 21){
-		$("body").css('background-image','url("backgrounds/background-night.jpg")');
+		$("body").css('background-image','url("backgrounds/red-background-night.jpg")');
 	} else{
 		$("body").css('background-image','url("backgrounds/background.jpg")');
 	}
