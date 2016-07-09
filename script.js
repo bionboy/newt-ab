@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	$('#hackernews').draggable();
+	$('#youtubefeed').draggable();
+	$('#quorafeed').draggable();
+
 	$(".icon").fadeTo('fast',.5);
 
 	$(".icon").mouseenter(function(){
@@ -26,6 +30,8 @@ $(document).ready(function(){
 	console.log(time);
 	if(time >= 21){
 		$("body").css('background-image','url("backgrounds/red-background-night.jpg")');
+		$("#links").addClass('night-links');
+		$("#forumlinks").addClass('night-links');
 	} else{
 		$("body").css('background-image','url("backgrounds/background.jpg")');
 	}
