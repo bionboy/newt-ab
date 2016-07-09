@@ -27,6 +27,9 @@ P {
   text-align: center;
   display:none;
 }
+.night-links{
+  background-color: red;
+}
 #rssContainer{
   width: 100%;
 }
@@ -54,13 +57,10 @@ P {
 #hackernews, #youtubefeed, #quorafeed{
    font: x-large Verdana, sans-serif;
    font-size: 100%;
-   color: white;
    text-align: center;
-   width: 100%;
-   float: left;
    display:none;
-}
-
+   width: 50%;
+   margin: 0 auto;
  }
 /*#quorafeed{
    font: x-large Verdana, sans-serif;
