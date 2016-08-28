@@ -20,6 +20,11 @@ P {
     text-indent: 0em;
     text-align:center
 }
+#links img,#forumlinks img{
+  height:90px;
+  width:90px;
+  padding-bottom:6px;
+}
 #links{
   text-align: center;
 }
