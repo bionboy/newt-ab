@@ -35,3 +35,21 @@ P {
 .night-links{
   background-color: red;
 }
+#rssContainer{
+  width: 100%;
+}
+#hackernewsbutton{
+   font: x-large Verdana, sans-serif;
+   font-size: 150%;
+   color: #4A235A;
+   text-align: center;
+   font-weight: bold;
+}
+#hackernews{
+   font: x-large Verdana, sans-serif;
+   font-size: 100%;
+   text-align: center;
+   display:none;
+   width: 50%;
+   margin: 0 auto;
+ }
